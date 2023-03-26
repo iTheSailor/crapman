@@ -1,0 +1,110 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    white-space: none;
+}
+.content{
+    width: 1050px;
+    align-items: center;
+    align-content: center;
+}
+#background{
+    width: 620px;
+    flex: 0 0;
+    /* position: absolute; */
+    /* border:blue solid 10px; */
+    border: rgb(0, 68, 255) groove 40px;
+    width: max-content;
+}
+.console{
+    padding: 25px;
+    flex: .3 1;
+    }
+.row{
+    display:flex;
+    justify-content: center;
+}
+.coin{
+    margin: 0;
+    /* border:white solid 1px; */
+    background-image:url(assets/coin.gif);
+    height:40px;
+    width:40px;
+    background-color: black;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+}
+.empty{
+    margin: 0;
+    height:40px;
+    width:40px;
+    background-color: black;
+}
+.fruit{
+    margin: 0;
+    /* border:white solid 1px; */
+    background-image:url(assets/strawberry.gif);
+    background-position-y: center;
+    background-position-x: center;
+    color:black;
+    height:40px;
+    width:40px;
+    background-color: black;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    
+    /* background-repeat: none; */
+}
+.wall{
+    margin: 0;
+    border:white solid 1px;
+    background-color: rgb(46, 25, 139);
+    height:38px;
+    width:38px;
+}
+.space{
+    margin: 0;
+    border:rgba(122, 86, 86, 0.493) solid 1px;
+    background-color: rgba(167, 12, 12, 0.836);
+    height:38px;
+    width:38px;
+}
+.ghost{
+    position: relative;
+    height:38px;
+    width: 38px;
+    border: black solid 1px;
+    background-size: 30px;
+    background-color: black transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scaleX(1);
+    position: 
+;
+} 
+#world{
+    background-color:black;
+    /* position: absolute; */
+}
+#pacman{
+    height: 40px;
+    width: 40px;
+    background-image: url(assets/pacman.gif);
+    background-color: black transparent;
+    background-size: contain;
+    position: relative;
+    transform: rotate(0deg);
+    transition-duration: 50ms;
+    left: 0px;
+    top: 0px;
+}
+#yellow{
+}
+#red{
+}
+#green{
+}
+#blue{
+}
